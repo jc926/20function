@@ -10,4 +10,14 @@ $Random_array = array ('I','am','learning','php','and','html','.');
 echo '<h2> 2.Array_chunk function </h2></br>';
 print_r(array_chunk($Random_array, 3, true));
 echo '<hr>';
+ 
+$a=array("1" => "first", "2" =>"second","3"=>"third", "fourth");
+$b=array("first","2"=>"second","fourth");
+$c=array_diff_assoc($a, $b);
+echo "<h2> 3.Array_diff_assoc function </h2></br>";
+print_r($c);
+echo '<hr>';
+
+
+
  ?>
