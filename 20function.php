@@ -51,4 +51,18 @@ echo "<h2> 9.array_pad function </h2></br>";
 $smile= array('ha','haha','hahaha','ha','hahah');
 print_r(array_pad($smile, 7, "ha"));
 echo "<hr>";
+
+echo "<h2> 10.array_push function </h2></br>";
+$laughing = array('ha','haha','hahaha','ha','hahah');
+array_push($laughing, 'hahahhahaha','hahahahhaahahahahaahahhaha');
+print_r($laughing);
+echo "<hr>";
+
+
+
+
+
+
+
+
  ?>
