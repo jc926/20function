@@ -18,6 +18,11 @@ echo "<h2> 3.Array_diff_assoc function </h2></br>";
 print_r($c);
 echo '<hr>';
 
+$array=array('ha','haha','hahaha','ha','hahah');
+echo "<h2> 3.Array_keys function </h2></br>"; 
+print_r(array_keys($array,'haha'));
+echo '<hr>';
+
 
 
  ?>
