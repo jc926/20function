@@ -107,4 +107,8 @@ $then = str_replace($smile, $laugh, $live);
 echo $then;
 echo "<hr>";
 
+echo "<h2> 9. str_pad function </h2></br>";
+$live = "you should laugh like this";
+echo str_pad($live, 36, "ha");
+echo "<hr>";
  ?>
