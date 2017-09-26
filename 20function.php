@@ -74,4 +74,8 @@ echo "<h2> 2. addslashes function </h2></br>";
 print_r(addslashes("jsi sji[]j if'w ie w oowo"));
 echo "<hr>";
 
+echo "<h2> 3. print function </h2></br>";
+print "this is print function hahahahhaahahahahaahahhaha";
+echo "<hr>";
+
  ?>
