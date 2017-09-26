@@ -83,4 +83,8 @@ $sentence = "this is echo function";
 echo "hahahahhaahahahahaahahhaha $sentence";
 echo "<hr>";
 
+
+echo "<h2> 5. substr function </h2></br>";
+print_r(substr("I just started the PHP coding", -7,1));
+echo "<hr>";
  ?>
