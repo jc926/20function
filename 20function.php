@@ -111,4 +111,15 @@ echo "<h2> 9. str_pad function </h2></br>";
 $live = "you should laugh like this";
 echo str_pad($live, 36, "ha");
 echo "<hr>";
+ 
+ echo "<h2> 10. str_repeat function </h2></br>";
+$live = "you should laugh hahahahhaahahahahaahahhaha";
+echo str_repeat($live, 3 );
+echo "<hr>";
+
+ 
+echo "</br>";
+echo "</br>";
+echo '<h1> Oh God, I am Done </h1>'
+
  ?>
