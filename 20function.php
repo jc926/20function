@@ -70,6 +70,8 @@ echo "<h2> 1. addcslashes function </h2></br>";
 print_r(addcslashes("jsi sjij ifwiew {.} oowo", "z..A"));
 echo "<hr>";
 
-
+echo "<h2> 2. addslashes function </h2></br>";
+print_r(addslashes("jsi sji[]j if'w ie w oowo"));
+echo "<hr>";
 
  ?>
