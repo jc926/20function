@@ -58,10 +58,17 @@ array_push($laughing, 'hahahhahaha','hahahahhaahahahahaahahhaha');
 print_r($laughing);
 echo "<hr>";
 
+echo "</br>";
+echo "</br>";
+echo "</br>";
+echo "</br>";
 
 
+echo '<h1> 10 String Function </h1>';
 
-
+echo "<h2> 1. addcslashes function </h2></br>";
+print_r(addcslashes("jsi sjij ifwiew {.} oowo", "z..A"));
+echo "<hr>";
 
 
 
