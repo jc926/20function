@@ -39,4 +39,10 @@ echo "<h2> 7.array_count_values function </h2></br>";
 print_r(array_count_values ($Count_value));
 echo '<hr>';
 
+$smile= array('ha','haha','hahaha','ha','hahah');
+sort($smile);
+echo "<h2> 8.sort function </h2></br>";
+foreach ($smile as $key => $val) {
+    echo "simle [" . $key . "] = " . $val . "\n";
+}
  ?>
