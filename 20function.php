@@ -92,4 +92,19 @@ echo "<h2> 6. str_split function </h2></br>";
 $laughing = "hahaha";
 print_r(str_split($laughing,2));
 echo "<hr>";
+ 
+echo "<h2> 7. explode function </h2></br>";
+$laughing = "ha/haha/hahaha/hahahaha";
+$loud = explode("/", $laughing);
+echo $loud [3];
+echo "<hr>";
+
+echo "<h2> 8. str_replace function </h2></br>";
+$live = "you should laugh like this: ha haha hahaha hahahaha";
+$smile = array("ha","haha");
+$laugh =array("hahaha","hahah");
+$then = str_replace($smile, $laugh, $live);
+echo $then;
+echo "<hr>";
+
  ?>
