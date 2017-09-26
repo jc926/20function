@@ -34,5 +34,9 @@ echo "<h2> 6.array_search function </h2></br>";
 print_r(array_search('red', $search_key));
 echo "<hr>";
 
+$Count_value = array('ha', 'haha', 'ha');
+echo "<h2> 7.array_count_values function </h2></br>"; 
+print_r(array_count_values ($Count_value));
+echo '<hr>';
 
  ?>
