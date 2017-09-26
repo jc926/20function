@@ -19,9 +19,18 @@ print_r($c);
 echo '<hr>';
 
 $array=array('ha','haha','hahaha','ha','hahah');
-echo "<h2> 3.Array_keys function </h2></br>"; 
+echo "<h2> 4.Array_keys function </h2></br>"; 
 print_r(array_keys($array,'haha'));
 echo '<hr>';
+
+$popcorn = array( 'flavorA','flavorB','falvorC');
+$No_C = array_pop($popcorn);
+echo "<h2> 5.Array_pop function </h2></br>"; 
+print_r($No_C);
+echo '<hr>';
+
+
+
 
 
 
