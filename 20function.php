@@ -45,4 +45,10 @@ echo "<h2> 8.sort function </h2></br>";
 foreach ($smile as $key => $val) {
     echo "simle [" . $key . "] = " . $val . "\n";
 }
+echo"<hr>";
+
+echo "<h2> 9.array_pad function </h2></br>";
+$smile= array('ha','haha','hahaha','ha','hahah');
+print_r(array_pad($smile, 7, "ha"));
+echo "<hr>";
  ?>
