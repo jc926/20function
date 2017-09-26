@@ -29,9 +29,10 @@ echo "<h2> 5.Array_pop function </h2></br>";
 print_r($No_C);
 echo '<hr>';
 
-
-
-
+$search_key = array(0 => 'blue', 1 => 'red', 2 => 'green', 3 => 'red');
+echo "<h2> 6.array_search function </h2></br>"; 
+print_r(array_search('red', $search_key));
+echo "<hr>";
 
 
  ?>
