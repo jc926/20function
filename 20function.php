@@ -78,4 +78,9 @@ echo "<h2> 3. print function </h2></br>";
 print "this is print function hahahahhaahahahahaahahhaha";
 echo "<hr>";
 
+echo "<h2> 4. echo function </h2></br>";
+$sentence = "this is echo function";
+echo "hahahahhaahahahahaahahhaha $sentence";
+echo "<hr>";
+
  ?>
