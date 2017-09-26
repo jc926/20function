@@ -87,4 +87,9 @@ echo "<hr>";
 echo "<h2> 5. substr function </h2></br>";
 print_r(substr("I just started the PHP coding", -7,1));
 echo "<hr>";
+
+echo "<h2> 6. str_split function </h2></br>";
+$laughing = "hahaha";
+print_r(str_split($laughing,2));
+echo "<hr>";
  ?>
